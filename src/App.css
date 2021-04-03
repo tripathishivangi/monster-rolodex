@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  font-size: 25px;
+}
+h1{
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color:#0ccac4;
+}
+li{
+  list-style: none;
+  display:inline;
+  margin:20px;
 }
 
 .App-logo {
@@ -7,6 +18,10 @@
   pointer-events: none;
 }
 
+.namy{
+  font-size:30px;
+  padding: 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +50,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* span{
+  font-size: 50px;
+  color:#fff;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  padding: 10px;
+} */
+
+/* body{
+  background-color: #0c70b4;
+  color: #fff;
+  font:normal 400 18px "PR Sans", sans-serif;
+} */
+.card{
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  margin: 20px auto;
+  opacity: 1;
+  color: #000;
+  line-height: 49px;
+}
+.hide{
+  display: none;
+}
+p{
+  color: orangered;
+  text-decoration: underline;
 }
